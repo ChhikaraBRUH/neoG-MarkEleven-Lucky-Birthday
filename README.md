@@ -1,2 +1,2 @@
 # neoG-MarkEleven-Lucky-Birthday
-Created with CodeSandbox
+neoG Camp Level 0 Mark 11 Lucky Birthday App made in VanillaJS
