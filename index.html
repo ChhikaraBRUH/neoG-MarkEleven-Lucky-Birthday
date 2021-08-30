@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lucky Birthday</title>
+		<meta charset="UTF-8" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+			integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+
+	<body>
+			<video id="background-video" autoplay loop muted >
+				<source src="https://r5---sn-npoe7nss.googlevideo.com/videoplayback?expire=1630377737&ei=qUItYbunA9KwxN8P4cqtwAw&ip=51.15.187.61&id=o-AOAJBsht-d9yvWO94zeA3BMVtMY4VTrVEbVgXUB2HE24&itag=22&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&ns=NZXaQr23tj2RK1wHjQCmLHcG&ratebypass=yes&dur=14.048&lmt=1615638826801844&fexp=24001373,24007246&c=WEB&txp=6216222&n=D8w3-zE4jSrpVTm8&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAMP11zHpRFj0FrH1sRNCPhRzJ9qDl--Jt_CsjKT6F_exAiBrUw6rTtWLfrZRDi0MxVTmRjK8-IVevnUre4ixcXb3zQ%3D%3D&redirect_counter=1&cm2rm=sn-25gks76&req_id=88c8d11287cfa3ee&cms_redirect=yes&mh=ox&mip=2402:8100:2244:1c2e:1ddc:8c79:5bf7:1709&mm=34&mn=sn-npoe7nss&ms=ltu&mt=1630355328&mv=m&mvi=5&pl=48&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAMDPoov9eMXb-k56N073VSVkdmUkzdNy89F4kMwMQ-xtAiEA1Cv3nogz2I1QXmw8OPqIUpXE3ZIM206AOxhPXXPOmMg%3D" type="video/mp4">
+			</video>
+		<div class="container">
+			<div id="app"></div>
+			<h1>Lucky Birthday Checker</h1>
+			<div>
+				<div class="label" for="#birthDate">Enter your birthday:</div>
+				<input class="input" id="birthDate" type="date" />
+			</div>
+
+			<div>
+				<div class="label" for="#luckyNum">
+					Enter your lucky number:
+				</div>
+				<input class="input" id="luckyNum" type="number" />
+			</div>
+
+			<button class="button" id="checkBtn" onclick="">
+				Check Now!
+			</button>
+
+			<div id="outputTxt"></div>
+			<hr/>
+			<div>
+					Made with
+					<span role="img" aria-label="Red Heart">
+						❤️
+					</span>
+					by
+					<a
+						href="https://bruh.dev"
+						style={{
+							textDecoration: "none",
+							fontSize: "1.1rem",
+							color: "var(--primary-color)"
+						}}
+					>
+						Chaitanya
+					</a>
+				</div>
+				<a href="https://twitter.com/ChhikaraBRUH">
+					<img
+						alt="Twitter Icon"
+						src="https://image.flaticon.com/icons/png/512/1384/1384017.png"
+					/>
+				</a>
+				<a href="https://github.com/ChhikaraBRUH">
+					<img
+						alt="GitHub Icon"
+						src="https://image.flaticon.com/icons/png/512/733/733609.png"
+					/>
+				</a>
+				<a href="https://linkedin.com/in/ChaitanyaChhikara">
+					<img
+						alt="LinkedIn Icon"
+						src="https://image.flaticon.com/icons/png/512/1384/1384014.png"
+					/>
+				</a>
+			</div>
+		</div>
+		
+		<script src="src/index.js"></script>
+	</body>
+</html>
